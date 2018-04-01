@@ -303,9 +303,9 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private List<Project> populateFeatured(List<Project> projects) {
-        final String[] titlesFeatured = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"};
+        final String[] titlesFeatured = {"Amahi", "VLC", "Wine", "Kodi", "Mozilla", "Libre", "WordPress", "Gnome"};
         final String[] descFeatured = {"werqwer", "sdewafdva", "ewafsfgagEFDDAF", "SFASRF3EFASFDFAAFS", "qdqdsadqwdadad", "sadfasdfwaefcQCD", "FADSFFCDCasdvafdsaf", "ufdhsadflgsajf"};
-        final String[] linkFeatured = {"https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode"};
+        final String[] linkFeatured = {"https://github.com/amahi", "https://github.com/videolan", "https://github.com/wine-mirror/wine", "https://github.com/xbmc", "https://github.com/mozilla", "https://github.com/LibreOffice", "https://github.com/wordpress", "https://github.com/GNOME"};
         final int[] drawables = {R.drawable.u1, R.drawable.u2, R.drawable.u3, R.drawable.u4, R.drawable.u5, R.drawable.u6, R.drawable.u7, R.drawable.u1};
 
         for (int i = 0; i < titlesFeatured.length; i++) {
@@ -317,7 +317,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private List<Project> getProjectsExe(List<Project> projects) {
-        final String[] titlesExe = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"};
+        final String[] titlesExe = {"NITH Chatbot", "Online Outpass System", "Arduino Based Fighting Robot", "Self-Playing Mario Bot", "Sophisticated Polling Application", "Exeplore", "VR-Based Multiplayer Application", "Automated Invigilator Duty Scheduler"};
         final String[] descExe = {"werqwer", "sdewafdva", "ewafsfgagEFDDAF", "SFASRF3EFASFDFAAFS", "fsdfwfsfafwef", "qdqdsadqwdadad", "sadfasdfwaefcQCD", "FADSFFCDCasdvafdsaf"};
         final String[] linkExe = {"https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode", "https://github.com/octacode"};
         final int[] drawables = {R.drawable.u1, R.drawable.u2, R.drawable.u3, R.drawable.u4, R.drawable.u5, R.drawable.u6, R.drawable.u7, R.drawable.u1};
